@@ -1,0 +1,300 @@
+html {
+    overflow: overlay
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #222020;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+    font-size: 14px;
+}
+body {
+    min-height: 100%;
+    background-color: #ffffff;
+}
+h1 {
+    letter-spacing: -1px;
+}
+a {
+    color: #7ba32d;
+}
+.login-root {
+    background: #fff;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.loginbackground {
+    min-height: 692px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+.flex-flex {
+    display: flex;
+}
+.align-center {
+align-items: center; 
+}
+.center-center {
+align-items: center;
+justify-content: center;
+}
+.box-root {
+    box-sizing: border-box;
+}
+.flex-direction--column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.padding-top--64 {
+padding-top: 64px;
+}
+.padding-top--24 {
+padding-top: 24px;
+}
+.padding-top--48 {
+padding-top: 48px;
+}
+.padding-bottom--24 {
+padding-bottom: 24px;
+}
+.padding-horizontal--48 {
+padding: 48px;
+}
+.padding-bottom--15 {
+padding-bottom: 15px;
+}
+
+
+.flex-justifyContent--center {
+-ms-flex-pack: center;
+justify-content: center;
+}
+
+.formbg {
+    margin: 0px auto;
+    width: 100%;
+    min-width: 450px;
+    max-width: fit-content;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    margin-bottom: 30px;
+}
+span {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1a1f36;
+}
+label {
+    margin-bottom: 10px;
+}
+.reset-pass a,label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+.reset-pass > a {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.grid--50-50 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.field input {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: #7ba32d;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(65, 87, 60, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.field a {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 11px 16px 12px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: #648a1a6e;
+    background-color: #7ba32d;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                #648a1a6e 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 8px;
+    text-decoration: unset;
+}   
+
+input[type="submit"] {
+    width: 100%;
+    outline-color: #648a1a6e;
+    background-color: #7ba32d;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                #648a1a6e 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.field-checkbox input {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px; 
+    box-shadow: unset;
+    min-height: unset;
+}
+.field-checkbox label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+a.ssolink {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+.footer-link span {
+    font-size: 14px;
+    text-align: center;
+}
+.listing a {
+    color: #697386;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+span.menu {
+    font-size: 32px;
+    text-decoration: unset;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+a.menu {
+    background-color: #7ca32d00;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    margin: 4px 0;
+    color: #222020;
+    font-size: 18px;
+    text-decoration: unset;
+    transition-duration: 100ms;
+}
+
+a.menu:hover {
+    border-radius: 5px;
+    background-color: #7ca32d14;
+    font-weight: 350;
+    color: #7ba32d;
+    letter-spacing: 1px;
+}
+
+.field select {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 50%;
+    min-height: 20px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: #7ba32d;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(65, 87, 60, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.small div{
+    display: inline-block;
+    width:50%;
+}
+
+.small div input{
+    display: inline-block;
+    width:50%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+    width: 100%;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    border-bottom: #7ba32d solid 2px;
+}
+
+th + th, td + td {
+    border-left: #23212233 solid 1px;
+}
+
+tr:nth-child(odd) td {
+   background-color: rgba(128, 128, 128, 0.156);
+}
+
+.stats {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.stats span {
+    font-size: 16px;
+    display: inline-block;
+}
